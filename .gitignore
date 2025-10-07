@@ -1,0 +1,33 @@
+# Airflow
+logs/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Data files
+data/
+*.csv
+
+# Models
+model/
+*.pkl
+
+# Docker volumes
+postgres-db-volume/
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+docker-compose.yaml
+setup.sh
+
